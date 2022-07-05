@@ -1,3 +1,5 @@
 {
     "name": "tin-cat/evolutive",
-    "description": "A library to learn about evolutive, genetics-based machine le
+    "description": "A library to learn about evolutive, genetics-based machine learning algorithms and object-oriented programming.",
+    "type": "library",
+	"keywords": ["ai","artifical intelligence","genet
