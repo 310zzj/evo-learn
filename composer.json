@@ -6,4 +6,11 @@
 	"homepage": "https://github.com/tin-cat/evolutive",
     "license": "MIT",
     "autoload": {
-        "psr-4
+        "psr-4": {
+            "TinCat\\Evolutive\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lorenzo Herrera",
+          
