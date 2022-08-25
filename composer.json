@@ -16,4 +16,7 @@
             "email": "lorenzo@tin.cat",
             "homepage": "http://tin.cat",
             "role": "Developer"
-  
+        }
+    ],
+    "require": {}
+}
