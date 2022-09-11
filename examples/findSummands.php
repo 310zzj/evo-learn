@@ -8,4 +8,9 @@
 	header("Content-type: text/plain; charset=utf-8");
 	include "../evolutive.class.php";
 
-	class FindSummandsSpecimen extends Evol
+	class FindSummandsSpecimen extends Evolutive\Specimen {
+		public $desiredResult = 10;
+		public $result;
+		
+		public function FindSummandsSpecimen($dna = false) {
+			$thi
