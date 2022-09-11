@@ -5,4 +5,7 @@
 	 * Using an evolutive, genetics-based machine learning algorithm to find the two sumands that give a specific result.
 	 */
 
-	header("Content-ty
+	header("Content-type: text/plain; charset=utf-8");
+	include "../evolutive.class.php";
+
+	class FindSummandsSpecimen extends Evol
