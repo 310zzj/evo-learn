@@ -13,4 +13,8 @@
 		public $result;
 		
 		public function FindSummandsSpecimen($dna = false) {
-			$thi
+			$this->baseDna = new Evolutive\Dna([
+				"summandA" => new Evolutive\Gene(),
+				"summandB" => new Evolutive\Gene(),
+			]);
+			parent::Spec
