@@ -17,4 +17,8 @@
 				"summandA" => new Evolutive\Gene(),
 				"summandB" => new Evolutive\Gene(),
 			]);
-			parent::Spec
+			parent::Specimen($dna);
+		}
+
+		public function run($parameters) {
+			$this->result = $this->getDna()->getGene("summandA")->getValue() + $thi
