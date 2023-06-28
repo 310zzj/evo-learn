@@ -39,4 +39,7 @@
 		"specimenClassName" => "FindSummandsSpecimen",
 		"specimensPerGeneration" => 10,
 		"generations" => 1000,
-		"maxAttemptsPerGeneration
+		"maxAttemptsPerGeneration" => 10
+	]);
+
+	echo "Solution found by the fittest specimen: ".$specimen->getDna()->getGene("summandA")->getValue()." + ".$specimen->getD
