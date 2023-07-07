@@ -3,4 +3,6 @@
 namespace TinCat\Evolutive;
 
 class Breed {
-	privat
+	private $specimens;
+
+	// Creates a Breed with the specified number of specimens, all genetically related to the provided $baseSpecimen
