@@ -27,4 +27,9 @@ class Breed {
 
 	public function getAverageFitness() {
 		foreach ($this->specimens as $specimen)
-			$fi
+			$fitness += $specimen->getFitness();
+		reset($this->specimens);
+		return $fitness / sizeof($this->specimens);
+	}
+
+	public function getDebug(
