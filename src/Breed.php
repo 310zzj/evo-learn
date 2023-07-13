@@ -21,4 +21,10 @@ class Breed {
 				$bestFitSpecimen = $specimen;
 			}
 		}
-		reset($this->s
+		reset($this->specimens);
+		return $bestFitSpecimen;
+	}
+
+	public function getAverageFitness() {
+		foreach ($this->specimens as $specimen)
+			$fi
