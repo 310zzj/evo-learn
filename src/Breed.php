@@ -32,4 +32,9 @@ class Breed {
 		return $fitness / sizeof($this->specimens);
 	}
 
-	public function getDebug(
+	public function getDebug() {
+		foreach ($this->specimens as $specimen)
+			$r .= $specimen->getDebug()."\n";
+		return $r;
+	}
+}
