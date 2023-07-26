@@ -24,3 +24,21 @@ class Dna {
 	}
 
 	public function alterMutagen() {
+		foreach ($this->genes as $gene)
+			$gene->alterMutagen();
+		reset($this->genes);
+	}
+
+	public function getGene($geneName) {
+		return $this->genes[$geneName];
+	}
+
+	public function getDebug() {
+		if (!is_array($this->genes))
+			return "No genes";
+		foreach ($this->genes as $geneName => $gene)
+			$r .= "[".$geneName.":".$gene->getDebug()."] ";
+		reset($this->genes);
+		return $r;
+	}
+}
