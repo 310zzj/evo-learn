@@ -45,3 +45,5 @@ class Nursery {
 
 	private function createSpecimen() {
 		return new $this->specimenClassName();
+	}
+}
