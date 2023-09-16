@@ -19,4 +19,11 @@ class Specimen {
 	}
 
 	public function __clone() {
-		$this
+		$this->dna = clone $this->dna;
+	}
+
+	public function mutate() {
+		$this->getDna()->mutate();
+	}
+
+	public function alterMutagen() {
