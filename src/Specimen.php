@@ -27,3 +27,11 @@ class Specimen {
 	}
 
 	public function alterMutagen() {
+		$this->GetDna()->alterMutagen();
+	}
+
+	public function getDna() {
+		return $this->dna;
+	}
+
+	// Executes any
