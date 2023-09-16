@@ -11,4 +11,12 @@ class Specimen {
 	}
 
 	public function breed($runParameters = false) {
-		$son = 
+		$son = clone $this;
+		$son->alterMutagen();
+		$son->mutate();
+		$son->run($runParameters);
+		return $son;
+	}
+
+	public function __clone() {
+		$this
