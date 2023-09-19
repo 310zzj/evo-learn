@@ -34,4 +34,4 @@ class Specimen {
 		return $this->dna;
 	}
 
-	// Executes any
+	// Executes any code that defines the specimen's reason to live. Overloaded implementations can accept many parameters, that are c
