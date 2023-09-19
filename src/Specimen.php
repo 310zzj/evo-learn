@@ -34,4 +34,7 @@ class Specimen {
 		return $this->dna;
 	}
 
-	// Executes any code that defines the specimen's reason to live. Overloaded implementations can accept many parameters, that are c
+	// Executes any code that defines the specimen's reason to live. Overloaded implementations can accept many parameters, that are configured by passing the "runParameters" setup key to Nursery::evolve
+	public function run($parameters) {}
+
+	// Returns a value 
