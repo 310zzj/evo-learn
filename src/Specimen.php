@@ -40,4 +40,5 @@ class Specimen {
 	// Returns a value that expresses how fit this specimen is, where higher values mean better fitness.
 	public function getFitness() {}
 
-	public fun
+	public function getDebug() {
+		return get_class($this).": ".$this->dna->getDebug()." Fitness:".$this->getFitnes
