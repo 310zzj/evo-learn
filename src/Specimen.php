@@ -41,4 +41,6 @@ class Specimen {
 	public function getFitness() {}
 
 	public function getDebug() {
-		return get_class($this).": ".$this->dna->getDebug()." Fitness:".$this->getFitnes
+		return get_class($this).": ".$this->dna->getDebug()." Fitness:".$this->getFitness();
+	}
+}
