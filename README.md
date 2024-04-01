@@ -6,4 +6,5 @@ Evo-Learn consists of several key classes representing the primary entities whic
 - **Nursery** Handles all Specimen breeding, emulating an evolutive process.
 - **Breed** Symbolizes a cluster of Specimens borne from an original Dna.
 - **Specimen** Denotes a unique Specimen with a certain Dna.
-- **Dna** Signifie
+- **Dna** Signifies the varying characteristics of the Specimen it's associated with. Contains Genes.
+- **Gene** Represents a feature of a Specimen. Co
