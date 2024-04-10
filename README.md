@@ -7,4 +7,5 @@ Evo-Learn consists of several key classes representing the primary entities whic
 - **Breed** Symbolizes a cluster of Specimens borne from an original Dna.
 - **Specimen** Denotes a unique Specimen with a certain Dna.
 - **Dna** Signifies the varying characteristics of the Specimen it's associated with. Contains Genes.
-- **Gene** Represents a feature of a Specimen. Co
+- **Gene** Represents a feature of a Specimen. Contains a Mutagen.
+- **Mutagen** Depicts the extrinsic influence that drives Specimens to differ from each other by mutating a
