@@ -12,4 +12,4 @@ Evo-Learn consists of several key classes representing the primary entities whic
 
 ## The Procedure
 1. **The zero specimen** The starting point for breeding is set by creating a first specimen. 
-2. **
+2. **Generation breeding** Generations of specimens are bred one at a time, using the fittest Specimen from the prior generat
