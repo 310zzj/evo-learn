@@ -10,4 +10,6 @@ Evo-Learn consists of several key classes representing the primary entities whic
 - **Gene** Represents a feature of a Specimen. Contains a Mutagen.
 - **Mutagen** Depicts the extrinsic influence that drives Specimens to differ from each other by mutating a gene. Mutagens alter Genes in a specific pattern (an offset) each time the Gene is mutated (mutation happens every time a Specimen is bred). The simulated evolution procedure aims to keep Mutagens known to yield better fitness while mutating less fitted Mutagens.
 
-## T
+## The Procedure
+1. **The zero specimen** The starting point for breeding is set by creating a first specimen. 
+2. **
