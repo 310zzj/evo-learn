@@ -17,4 +17,7 @@ Evo-Learn consists of several key classes representing the primary entities whic
 4. **Mutagen** Mutagens mutate Genes in a specific way. When a Mutagen changes, the Gene will mutate in a randomly different way (to generate diversity). An unchanged Mutagen will mutate the Gene in the same way (to retain Mutagens believed to yield better fitted Specimens). Mutagens change for each new bred Specimen.
 
 ## Usage Guide
-**Please refer to the full README in the repository for step-by-step guide on how to use the Evo-Learn library.*
+**Please refer to the full README in the repository for step-by-step guide on how to use the Evo-Learn library.**
+
+## Concluding Remarks
+Please note that evolutive genetic machine-learning algorithms like this are not best to f
