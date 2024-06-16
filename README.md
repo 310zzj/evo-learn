@@ -20,4 +20,4 @@ Evo-Learn consists of several key classes representing the primary entities whic
 **Please refer to the full README in the repository for step-by-step guide on how to use the Evo-Learn library.**
 
 ## Concluding Remarks
-Please note that evolutive genetic machine-learning algorithms like this are not best to f
+Please note that evolutive genetic machine-learning algorithms like this are not best to find specific results. For instance, even with a very high number of iterations, you'll never reach a certainty of always
